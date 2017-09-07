@@ -1,0 +1,390 @@
+@charset "utf-8";
+.header{
+	border:none;
+}
+.main img{
+	width: 100% ;
+	height: 100% ;
+	display: block ;
+}
+.main a:hover{
+	color:red !important;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    min-width: 1000px;
+    overflow: hidden;
+}
+.carousel-control{
+	background: none !important;
+}
+.main a:hover{
+	text-decoration: none ;
+	color:red ;
+}
+.row1{
+	margin-top: 50px;
+	height: 135px;
+	margin-bottom: 30px;
+}
+.bread{
+	padding:20px 0 ;
+	font-size: 18px;
+	color:#878787;
+}
+.bread a{
+
+	color:#878787;
+}
+.num,.line{
+	float: left;
+}
+.num{
+	width: 91px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.num img{
+	width: 71px;
+	height: 71px;
+	margin:0 auto;
+}
+.num span.title{
+	margin-bottom:20px;
+	display: inline-block;
+	font-size: 18px;
+	color:#303030;
+}
+.line{
+	width: 169px;
+	margin-top:75px;
+}
+.line img{
+	width: 169px;
+	margin:0 auto;
+}
+.help{
+	float: right;
+	width: 113px;
+	height: 93px;
+	background-image: url(../images/pic10.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin-top:32px;
+	text-align: center;
+	margin-right:5px;
+}
+.help a{
+	color:#fff;
+	text-align: center;
+	font-size: 20px;
+	display: block;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.help a:hover{
+	-ms-transform:scale(1.2,1.2); /* IE 9 */
+	-webkit-transform: scale(1.2,1.2); /* Safari */
+	transform: scale(1.2,1.2); /* 标准语法 */
+	color:#fff !important;
+}
+.more{
+	font-size: 14px;
+	float: right;
+	color:#999;
+	cursor: pointer;
+}
+.more:hover{
+	color:red;
+}
+
+.content{
+	margin-top: 30px;
+}
+.row2-left,.row3-left,.row4-left{
+	width: 75%;
+	float: left;
+}
+.edu{
+	margin-bottom: 50px;
+	width:100%;
+	background:url(../images/bg-title.png) no-repeat left top;
+	border:1px solid #eee;
+	padding-left:1px;
+	border-left:none;
+	border-top:2px solid #2f6ad2;
+}
+
+.px{
+	width: 5px;
+	height: 100%;
+	float: left;
+}
+.px-top{
+	height: 40px;
+}
+.px-bottom{
+	border-right: 1px solid #eee;
+}
+.row3 .px-bottom{
+	border-right: 1px solid #eee;
+}
+.edu-title{
+	height: 30px;
+}
+.edu-title p{
+	float: left;
+	font-size: 20px;
+	margin:5px 0 0 30px;
+	color:#fff;
+	display: inline-block;
+}
+.edu-title .more{
+	font-size: 16px;
+	margin-top:5px;
+	margin-right: 10px;
+}
+.edu .content{
+	padding:0 15px;
+}
+.edu-big-img{
+	height: 440px;
+}
+.edu-big{
+	width: 40%;
+	float: left;
+	padding:10px 10px  30px 10px;
+	border-bottom: 1px solid #ccc;
+}
+.edu-small{
+	width: 24%;
+	padding:10px;
+	height: 169px;
+	border-bottom: 1px solid #ccc;
+	display: inline-block;
+	margin-bottom: 20px;
+	float: left;
+	margin-right:8px;
+}
+.edu-small.last{
+	margin-right:0;
+}
+.edu-big:hover{
+	border: 1px solid #ccc;
+	box-shadow: 2px 2px #eee;
+	border-radius: 5px;
+}
+.edu-small:hover{
+	border: 1px solid #ccc;
+	box-shadow: 2px 2px #eee;
+	border-radius: 5px;
+}
+.edu-small-img{
+	width: 100%;
+	height: 124px;
+}
+.course-caption{
+	width: 100%;
+}
+.course-caption > p{
+	font-size: 14px;
+	width: 100% !important;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	line-height: 1.5;
+}
+.course-name{
+	color:#292929;
+	margin-top: 5px;
+}
+.course-info{
+	color:#898989;
+}
+.price{
+	color:#ffab44;
+}
+.row2-right{
+	width: 24%;
+	float: right;
+}
+.login{
+	border:1px solid #eee;
+	width: 100%;
+	height: 250px;
+}
+.form-box{
+	padding:25px 15px 0 15px;
+}
+.row2-right .title{
+	width: 100%;
+	height: 40px;
+	background-color: #2f6ad2;
+	text-align: center;
+	line-height: 40px;
+	color:#fff;
+}
+.form-horizontal .form-group {
+    margin-right: 0;
+    margin-left: 0;
+}
+.login .form-group{
+	position: relative;
+}
+.login .form-group span{
+	position: absolute;
+	left: 8px;
+	top:50%;
+	margin-top: -8px;
+	font-size: 16px;
+	color:#a5a5a5;
+}
+.login .form-group input{
+	text-indent: 20px;
+}
+.login .btn-primary{
+	background-color: #2f6ad2;
+}
+.star{
+	border:1px solid #eee;
+	width: 100%;
+	padding:0 0 20px 0;
+	margin-top:30px;
+}
+.star .title p{
+	float: left;
+	color:#fff;
+	margin-left: 10px;
+}
+.star .title .more{
+	float: right;
+	color:#fff;
+	margin-right: 10px;
+}
+.star .ranking{
+	height: 37px;
+	border-bottom: 1px solid #eee;
+	padding:0 10px;
+
+}
+.star .ranking li{
+	float: left;
+	font-size: 14px;
+	color:#434343;
+	line-height: 37px;
+}
+.star ol{
+	padding: 0 10px;
+}
+.star ol li{
+	clear: both;
+	line-height: 30px;
+}
+.star .left{
+	float: left;
+
+}
+.star .study-time{
+	float: right;
+}
+.row3 ul li{
+	width: 14%;
+	float: left;
+	text-align: center;
+}
+.row3 ul li a{
+	line-height: 2.5;
+	font-size: 18px;
+	color:#414141;
+}
+.row4 ul li{
+	width: 14%;
+	float: left;
+	text-align: center;
+}
+.row4 ul li a{
+	line-height: 2.5;
+	font-size: 18px;
+	color:#414141;
+}
+.page p{
+	font-size: 18px;
+	color: #404040;
+	text-align: center;
+}
+.page a{
+	font-size: 18px;
+	color: #404040;
+}
+.show-page{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border:1px solid #ccc;
+	border-radius: 5px;
+}
+
+/* iphone5 */
+@media (min-width:320px){
+
+}
+/* iphone6 */
+@media (min-width:375px){
+	
+}
+/* iphone6-plus */
+@media (min-width:414px){
+	
+}
+/* iphone5 横屏*/
+@media (min-width:568px){
+
+}
+/* iphone6 横屏*/
+@media (min-width:667px){
+	
+}
+/* iphone6-plus 横屏*/
+@media (min-width:736px){
+	
+}
+/* 小屏幕（平板，大于等于768px） */
+@media (min-width: 768px) {
+	
+}
+
+/* 中等屏幕（桌面显示器，大于等于992px） */
+@media (min-width: 992px) {
+
+}
+
+/* 大屏幕（大桌面显示器，大于等于1200px） */
+@media (min-width: 1200px) {
+
+}
+@media (min-width: 1366px) {
+	.row1-left .content-right{
+		float: right;
+		width:440px;
+		height: 328px;
+	}
+	.carousel-inner {
+	    position: relative;
+	    width: 100%;
+	    min-width: 1100px;
+	    overflow: hidden;
+	}
+	.edu-small{
+		margin-right:10px;
+	}
+	.num{
+		width: 100px;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.line{
+		width: 178px;
+		margin-top:75px;
+	}
+}

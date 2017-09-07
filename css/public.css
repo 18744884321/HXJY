@@ -1,0 +1,217 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0 
+}
+body,h1,h2,h3,p,ul,ol,form,fieldset,figure {
+	margin: 0; 
+	padding: 0; 
+} 
+body { 
+ 	font-family: "Microsoft YaHei","Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI",  SimHei, "\5B8B\4F53", simsun, sans-serif; 
+ } 
+ul,ol { 
+	list-style: outside none none; 
+} 
+a { 
+	text-decoration: none; 
+} 
+.none { 
+	display: none; 
+}
+article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block}
+.clearfix{
+	clear:both;
+}
+.top,.main{
+	width: 1000px;
+	min-width: 1000px;
+	margin:0 auto;
+}
+.header{
+	padding:30px 0;
+	border-bottom:2px solid #2f6ad2;
+}
+.header{
+	width: 100%;
+	min-width: 1000px;
+}
+.top{
+	padding-left:10px;
+}
+.top a{
+	float: right;
+	font-size: 18px;
+	color:#7e7e7e;
+	line-height: 34px;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    min-width: 1000px;
+    max-height: 425px;
+    overflow: hidden;
+}
+
+.carousel-control{
+	background: none !important;
+}
+
+.navbox{
+	width:1000px;
+	margin:0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.navbox ul li{
+	float: left;
+	width: 16.6%;
+	text-align: center;
+}
+.navbox ul li a{
+	width: 80%;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	padding:10px 0;
+	margin:0 auto;
+	color:#2f6ad2;
+	font-size: 16px;
+}
+.navbox ul li a:hover{
+	background-color: #f0f0f0;
+}
+.navbox ul li.active a{
+	background-color: #f0f0f0;
+}
+.footer{
+
+	width:100%;
+	min-width: 1000px;
+	background-color: #f0f0f0;
+	height: 195px;
+	
+}
+.footer .bottom{
+	width: 1000px;
+	margin:0 auto;
+	padding:30px 0 0 0;
+}
+.footer .link{
+	display: block;
+	margin-top: 30px;
+	clear:both;
+}
+.footer li{
+	float: left;
+	width: 20%;
+	text-align: center;
+	font-size: 20px;
+	color:#292929;
+}
+.footer .divider{
+	margin:30px 0;
+	height: 1px;
+	border-bottom: 1px solid #ccc;
+}
+.copy{
+	text-align: center;
+	font-size:14px;
+	line-height: 30px;
+}
+.footer a{
+	color:#292929;
+}
+.footer a:hover{
+	text-decoration: none ;
+	color:red ;
+}
+.top a:hover{
+	text-decoration: none ;
+	color:red ;
+}
+.bread{
+	padding:20px 0 ;
+	font-size: 18px;
+	color:#878787;
+}
+.bread a{
+
+	color:#878787;
+}
+
+.page p{
+	font-size: 18px;
+	color: #404040;
+	text-align: center;
+}
+.page a{
+	font-size: 18px;
+	color: #404040;
+}
+.show-page{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border:1px solid #ccc;
+	border-radius: 5px;
+}
+/* iphone5 */
+@media (min-width:320px){
+
+}
+/* iphone6 */
+@media (min-width:375px){
+	
+}
+/* iphone6-plus */
+@media (min-width:414px){
+	
+}
+/* iphone5 横屏*/
+@media (min-width:568px){
+
+}
+/* iphone6 横屏*/
+@media (min-width:667px){
+	
+}
+/* iphone6-plus 横屏*/
+@media (min-width:736px){
+	
+}
+/* 小屏幕（平板，大于等于768px） */
+@media (min-width: 768px) {
+	
+}
+
+/* 中等屏幕（桌面显示器，大于等于992px） */
+@media (min-width: 992px) {
+
+}
+
+/* 大屏幕（大桌面显示器，大于等于1200px） */
+@media (min-width: 1200px) {
+
+}
+@media (min-width: 1366px) {
+	.top,.main{
+		width: 1100px;
+		min-width: 1100px;
+		margin:0 auto;
+	}
+	.navbox{
+		width: 1100px;
+		min-width: 1100px;
+	}
+	.header{
+		width: 100%;
+		min-width: 1100px;
+	}
+	.footer{
+		min-width: 1100px;
+	}
+	.footer .bottom{
+		width: 1100px;
+	}
+}

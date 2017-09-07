@@ -1,0 +1,28 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { border: 0; font-size: 100%; font: inherit; margin: 0; padding: 0}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block}
+body { line-height: 1}
+ol, ul { list-style: none}
+blockquote, q { quotes: none}
+blockquote:before, blockquote:after, q:before, q:after { content: none}
+table { border-collapse: collapse; border-spacing: 0; }
+
+a { outline: none; cursor: pointer; text-decoration: none; }
+a:hover { text-decoration: none; }
+html, body { background: #fff; font: 12px/180% Microsoft YaHei, SimSun, Arial, Tahoma; }
+.wraper{ width: 100%; height: 617px; display: none; box-shadow: 0 0 10px rgba(0,0,0,0.7); position: relative; }
+.a-wrapper{ width: 100%; height: 617px; position: absolute; top: 0; left: 0; z-index: 1; }
+.close{ position: absolute; right: 20px; top: 20px; background: #FEA003; border-radius: 5px; padding: 1px 5px; font-size: 16px; width: 65px; height: 30px; line-height: 30px; text-align: center; z-index: 10;font-weight: bold;}
+.ads-1{ height: 292px; background: url(../image/ads-1.jpg) center no-repeat; }
+.ads-2{ height: 208px; background: url(../image/ads-2.jpg) center no-repeat; }
+.ads-3{ height: 292px; background: url(../image/ads-3.jpg) center no-repeat; }
+.ads-4{ height: 208px; background: url(../image/ads-4.jpg) center no-repeat; }
+.ads-5{ height: 292px; background: url(../image/ads-5.jpg) center no-repeat; }
+.ads-6{ height: 208px; background: url(../image/ads-6.jpg) center no-repeat; }
+.ads-7{ height: 292px; background: url(../image/ads-7.jpg) center no-repeat; }
+.ads-8{ height: 208px; background: url(../image/ads-8.jpg) center no-repeat; }
+.ads-9{ height: 292px; background: url(../image/ads-9.jpg) center no-repeat; }
+.ads-10{ height: 208px; background: url(../image/ads-10.jpg) center no-repeat; }
+.ads-11{ height: 292px; background: url(../image/ads-11.jpg) center no-repeat; }
+.ads-12{ height: 208px; background: url(../image/ads-12.jpg) center no-repeat; }
+.ads-13{ height: 317px; background: url(../image/ads-13.jpg) center no-repeat; }
+.ads-14{ height: 300px; background: url(../image/ads-14.jpg) center no-repeat; }
